@@ -2,8 +2,23 @@
 
 html{
     scroll-snap-type: y mandatory;
+    box-sizing: content-box;
 }
 
 section{
     scroll-snap-align: start;
+}
+
+section.page_one{
+    background-image: url('./assets/emile-perron-unsplash.jpg');
+}
+
+.dennis_pogi{
+    background-image: url('./assets/DSCF3508.jpg');
+    background-size: 2000px 2080px;
+    background-position: -1100px -550px;
+}
+
+.cocky_brown{
+    background-color: #DBD9CF;
 }

@@ -5,6 +5,10 @@ html{
     box-sizing: content-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 section{
     scroll-snap-align: start;
 }
@@ -21,4 +25,19 @@ section.page_one{
 
 .cocky_brown{
     background-color: #DBD9CF;
+}
+
+ul.pageone_ul{
+    list-style-type: none;
+    margin-left: 20px;
+    display: flex;
+}
+
+ul.pageone_ul li{
+    margin-right: 30px;
+    
+}
+
+ul.pageone_ul li svg{
+    filter: invert(79%) sepia(86%) saturate(2%) hue-rotate(176deg) brightness(111%) contrast(80%);    
 }

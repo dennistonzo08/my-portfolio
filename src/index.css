@@ -75,3 +75,17 @@ tr.border-bottom td{
 .th_rate{
     width: 11%;
 }
+
+section.pagetwo{
+    display: grid;
+    grid-template-areas:
+    "content content"
+    "footer footer";
+}
+
+svg.pagetwo_scroll{
+    fill: #8C8B8B;
+    position: relative;
+    left: 97.3%;
+    transform: translateY(55vh);
+}

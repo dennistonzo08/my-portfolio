@@ -41,3 +41,37 @@ ul.pageone_ul li{
 ul.pageone_ul li svg{
     filter: invert(79%) sepia(86%) saturate(2%) hue-rotate(176deg) brightness(111%) contrast(80%);    
 }
+
+.pageone_scroll{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    fill: white;
+}
+
+.skillsummary_parent h1{
+    transform: translate(40%, 50%);
+}
+
+td > svg{
+    float: left;
+    fill: #8C8B8B;
+}
+
+tr.border-bottom td{
+    border-bottom: 1px solid black;
+}
+
+.td_others{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.th_name{
+    width: 89%;
+}
+
+.th_rate{
+    width: 11%;
+}

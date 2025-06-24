@@ -5,7 +5,7 @@ function PageOne() {
         <div className="justify-center content-center justify-center content-center flex-wrap">
           <h1 className="text-5xl text-white">DENNIS JOHN TONZO</h1>
           <p className="text-2xl text-white">Computer Software Developer</p>
-          <ul className="pageone_ul justify-center content-center">
+          <ul className="pageone_ul justify-center content-center my-2">
             <li>
               <svg
                 width="40"
@@ -50,11 +50,12 @@ function PageOne() {
         </div>
       </div>
 
-      <div className="w-1/2 justify-center content-center grow-2 h-5/6"></div>
+      <div className="w-1/2 grow-2 h-5/6"></div>
 
-      <div className="w-1/2 justify-center content-center items-center flex grow-1">
-        <p className="">SCROLL TO KNOW MORE</p>
+      <div className="w-1/2 h-6 grow-1">
+        <p className="text-white">SCROLL TO KNOW MORE</p>
         <svg
+          className="pageone_scroll text-white"
           width="40"
           height="40"
           xmlns="http://www.w3.org/2000/svg"

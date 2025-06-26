@@ -1,6 +1,6 @@
 function PageFour() {
   return (
-    <section className="h-screen cocky_brown">
+    <section className="h-screen w-full pagethree">
       <h1>LETS TALK!</h1>
 
       <div>

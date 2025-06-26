@@ -1,5 +1,5 @@
 import PythonBrand from "../assets/python-brands.svg";
-import TypescriptBrand from "../assets/typescript.svg";
+import ScrollDownBrand from "../assets/angles-down-solid.svg";
 import DatabaseBrand from "../assets/database-solid.svg";
 import HtmlBrand from "../assets/html5-brands.svg";
 import CssBrand from "../assets/css3-alt-brands.svg";
@@ -9,7 +9,7 @@ import AzureBrand from "../assets/azure-svgrepo-com.svg";
 
 function PageThree() {
   return (
-    <section className="h-screen cocky_brown flex flex-col">
+    <section className="h-screen w-full pagethree">
       <div className="w-full h-12 flex justify-center content-center">
         <h1 className="myjourney text-4xl font-semibold">MY JOURNEY</h1>
       </div>
@@ -484,6 +484,9 @@ function PageThree() {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center">
+        <img src={ScrollDownBrand} alt="scroll arrow" width={20} height={20} />
       </div>
     </section>
   );

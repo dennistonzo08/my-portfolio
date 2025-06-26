@@ -1,7 +1,7 @@
 function PageTwo() {
   return (
     <section className="h-screen flex">
-      <div className="w-1/2 dennis_pogi">
+      <div className="dennis_pogi">
         <div className="skillsummary_parent my-40">
           <h1 className="text-7xl font-semibold text-left">SKILLS</h1>
           <h1 className="text-7xl font-semibold text-left">SUMMARY</h1>
@@ -16,7 +16,7 @@ function PageTwo() {
           </svg>
         </div>
       </div>
-      <div className="w-1/2 cocky_brown p-10">
+      <div className="cocky_brown p-10">
         <table className="table align-baseline w-full">
           <tbody>
             <tr>

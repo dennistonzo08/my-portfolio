@@ -306,3 +306,32 @@ div > div > p.taytol{
 .checkpoint:nth-child(even) div::before{
     right: -0.5em;
 }
+
+.powered-container{
+    text-align:left;
+    display:table;
+}
+
+.poweredby{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.powered-list li{
+    background-color: #b9b9b9;
+    padding: 1em;
+    border-radius: 10px;
+    margin-right: 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.design-container{
+    text-align:right;
+    display:table;
+}
+
+.design-container p{
+    vertical-align: middle;
+    display: table-cell;
+}

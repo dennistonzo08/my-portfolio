@@ -10,7 +10,7 @@ import AzureBrand from "../assets/azure-svgrepo-com.svg";
 function PageThree() {
   return (
     <section className="h-screen w-full pagethree">
-      <div className="w-full h-12 flex justify-center content-center">
+      <div className="myjourney-container w-full h-12 flex justify-center content-center">
         <h1 className="myjourney text-4xl font-semibold">MY JOURNEY</h1>
       </div>
 

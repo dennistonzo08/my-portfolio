@@ -335,3 +335,139 @@ div > div > p.taytol{
     vertical-align: middle;
     display: table-cell;
 }
+
+/* page two media query */
+@media screen and (width < 1414px) {
+
+.dennis_pogi{
+    display: none;
+    width: 0;
+}
+
+.cocky_brown{
+    width: 100%;
+}
+
+.cocky_brown h1{
+    display: block;
+}
+
+.hidden-scroll{
+    display: flex;
+}
+
+.th_name,.th_rate{
+    width: 50%;
+}
+
+.rating svg{
+    float: right;
+}
+
+}
+
+/* page three media query */
+@media screen and (width < 1114px) {
+
+.checkpoint:nth-child(even){
+    justify-content: center;
+    width: 100%;
+    padding-right: 2px;
+    border-right: 0 solid #8C8B8B;
+}
+
+.checkpoint:nth-child(odd){
+    transform: translateX(0);
+    width: 100%;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    border-left: 0 solid #8C8B8B;
+}
+
+.checkpoint:nth-child(even)::before{
+    display: none;
+}
+
+.checkpoint:nth-child(odd)::before{
+    display: none;
+}
+
+.checkpoint:nth-child(even) div::before{
+    display: none;
+}
+
+.checkpoint:nth-child(odd) div::before{
+    display: none;
+}
+
+.checkpoint div{
+    width: 100%;
+}
+
+h1.myjourney{
+    border: 0 solid #8C8B8B;
+    font-size: large;
+}
+
+.myjourney-container{
+    height: 20px;
+}
+    
+}
+
+/* page four media query */
+@media screen and (width < 1411px) {
+
+h1.letstalk-header{
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+.letstalk-content ul{
+    display: inline;
+}
+
+.letstalk-content li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.letstalk-content ul > li > div{
+    width: 200px;
+}
+
+.letstalk-footer{
+    flex-direction: column-reverse;
+}
+
+.design-container{
+    margin-bottom: 20px;
+}
+
+.design-container p{
+    text-align: center;
+}
+
+.powered-container{
+    display: inline;
+    width: 100%;
+}
+
+.powered-container h1{
+    text-align: center;
+    padding: 0;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.powered-container > div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+}

@@ -1,3 +1,5 @@
+import ScrollBrand from "../assets/angles-down-solid.svg";
+
 function PageTwo() {
   return (
     <section className="h-screen flex">
@@ -17,6 +19,10 @@ function PageTwo() {
         </div>
       </div>
       <div className="cocky_brown p-10">
+        <h1 className="hidden font-bold font-semibold text-xl">
+          SKILLS SUMMARY
+        </h1>
+
         <table className="table align-baseline w-full">
           <tbody>
             <tr>
@@ -25,7 +31,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">C# .NET</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -70,7 +76,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">VB .NET</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -115,7 +121,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">PYTHON</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -160,7 +166,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">JAVASCRIPT</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -197,7 +203,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">TYPESCRIPT</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -234,7 +240,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">JAVA</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -263,7 +269,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">PHP</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -300,7 +306,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">HTML & CSS</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -337,7 +343,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">MS SQL</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -382,7 +388,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">MYSQL</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -427,7 +433,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">SQLITE</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -464,7 +470,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">LARAVEL</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -501,7 +507,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">CODEIGNITER</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -530,7 +536,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">REACT</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -567,7 +573,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">TAILWIND CSS</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -601,7 +607,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">ADOBE PREMIERE</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -646,7 +652,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">ADOBE AFTER EFFECTS</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -683,7 +689,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">SONY VEGAS</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -728,7 +734,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">ADOBE PHOTOSHOP</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -765,7 +771,7 @@ function PageTwo() {
             </tr>
             <tr className="border-bottom">
               <td className="text-left">ADOBE ILLUSTRATOR</td>
-              <td>
+              <td className="rating">
                 <svg
                   width={15}
                   height={15}
@@ -794,6 +800,16 @@ function PageTwo() {
             </tr>
           </tbody>
         </table>
+
+        <div className="hidden-scroll hidden flex content-center justify-center mt-10">
+          <img
+            className=""
+            src={ScrollBrand}
+            alt="arrow scroll"
+            width={25}
+            height={25}
+          />
+        </div>
       </div>
     </section>
   );

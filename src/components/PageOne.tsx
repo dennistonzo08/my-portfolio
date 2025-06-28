@@ -1,7 +1,7 @@
 function PageOne() {
   return (
     <section className="h-screen page_one bg-no-repeat bg-cover flex flex-wrap">
-      <div className="w-1/2 flex justify-center content-center grow-2 h-5/6">
+      <div className="max-xl:w-full w-1/2 flex justify-center content-center grow-2 h-5/6">
         <div className="justify-center content-center justify-center content-center flex-wrap">
           <h1 className="text-5xl text-white">DENNIS JOHN TONZO</h1>
           <p className="text-2xl text-white">Computer Software Developer</p>
@@ -50,9 +50,9 @@ function PageOne() {
         </div>
       </div>
 
-      <div className="w-1/2 grow-2 h-5/6"></div>
+      <div className="max-xl:w-0 w-1/2 grow-2 h-5/6"></div>
 
-      <div className="w-1/2 h-6 grow-1">
+      <div className="max-xl:w-full w-1/2 h-6 grow-1">
         <p className="text-white">SCROLL TO KNOW MORE</p>
         <svg
           className="pageone_scroll text-white"

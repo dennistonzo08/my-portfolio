@@ -11,11 +11,11 @@ function PageFour() {
   return (
     <section className="h-screen w-full pagethree">
       <div className="px-20">
-        <h1 className="text-7xl font-semibold pt-30 pb-30 text-left">
+        <h1 className="letstalk-header text-7xl font-semibold pt-30 pb-30 text-left">
           LETS TALK!
         </h1>
 
-        <div>
+        <div className="letstalk-content">
           <ul className="flex flex-wrap">
             <li className="w-1/3 p-4">
               <div className="flex">
@@ -79,7 +79,8 @@ function PageFour() {
             </li>
           </ul>
         </div>
-        <div className="mt-10 flex">
+
+        <div className="letstalk-footer mt-10 flex">
           <div className="powered-container w-3/12">
             <h1 className="poweredby p-4">Powered By:</h1>
             <div className="">

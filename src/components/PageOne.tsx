@@ -3,8 +3,12 @@ function PageOne() {
     <section className="h-screen page_one bg-no-repeat bg-cover flex flex-wrap">
       <div className="max-xl:w-full w-1/2 flex justify-center content-center grow-2 h-5/6">
         <div className="justify-center content-center justify-center content-center flex-wrap">
-          <h1 className="text-5xl text-white">DENNIS JOHN TONZO</h1>
-          <p className="text-2xl text-white">Computer Software Developer</p>
+          <h1 className="dennis max-sm:text-xl text-5xl text-white">
+            DENNIS JOHN TONZO
+          </h1>
+          <p className="jobdesc max-sm:text-sm text-2xl text-white">
+            Computer Software Developer
+          </p>
           <ul className="pageone_ul justify-center content-center my-2">
             <li>
               <svg

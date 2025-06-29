@@ -336,6 +336,16 @@ div > div > p.taytol{
     display: table-cell;
 }
 
+/* page one media */
+@media screen and (width < 640px){
+    
+.pageone_ul > li > svg{
+    width: 20px;
+    height: 20px;
+}
+
+}
+
 /* page two media query */
 @media screen and (width < 1414px) {
 

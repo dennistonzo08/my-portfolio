@@ -278,7 +278,7 @@ function PageThree() {
               AGRO-INDUSTRIAL FOUNDATION COLLEGE OF THE PHILIPPINES
             </p>
             <p>Freelance Programmer</p>
-            <p>September 2023 - October 2023</p>
+            <p>August 2021 - October 2022</p>
           </div>
 
           <div>

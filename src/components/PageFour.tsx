@@ -18,64 +18,79 @@ function PageFour() {
         <div className="letstalk-content">
           <ul className="flex flex-wrap">
             <li className="w-1/3 p-4">
-              <div className="flex">
-                <img src={EmailBrand} alt="email" width={50} height={50} />
-                <div className="flex flex-col justify-center content-center ml-2">
-                  <p className="text-left">Send me an email:</p>
-                  <p className="text-left font-bold">dennistonzo08@gmail.com</p>
+              <a href="mailto:dennistonzo08@gmail.com">
+                <div className="flex">
+                  <img src={EmailBrand} alt="email" width={50} height={50} />
+                  <div className="flex flex-col justify-center content-center ml-2">
+                    <p className="text-left">Send me an email:</p>
+                    <p className="text-left font-bold">
+                      dennistonzo08@gmail.com
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </li>
             <li className="w-1/3 p-4">
-              <div className="flex">
-                <img
-                  src={LinkedInBrand}
-                  alt="linkedin"
-                  width={50}
-                  height={50}
-                />
-                <div className="flex flex-col justify-center content-center ml-2">
-                  <p className="text-left">My LinkedIn Account:</p>
-                  <p className="text-left font-bold">/in/tonzo</p>
+              <a href="https://www.linkedin.com/in/dtonzo/" target="_blank">
+                <div className="flex">
+                  <img
+                    src={LinkedInBrand}
+                    alt="linkedin"
+                    width={50}
+                    height={50}
+                  />
+                  <div className="flex flex-col justify-center content-center ml-2">
+                    <p className="text-left">My LinkedIn Account:</p>
+                    <p className="text-left font-bold">/in/tonzo</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </li>
             <li className="w-1/3 p-4">
-              <div className="flex">
-                <img src={GithubBrand} alt="github" width={50} height={50} />
-                <div className="flex flex-col justify-center content-center ml-2">
-                  <p className="text-left">My Github Account:</p>
-                  <p className="text-left font-bold">@dennistonzo08</p>
+              <a href="https://github.com/dennistonzo08" target="_blank">
+                <div className="flex">
+                  <img src={GithubBrand} alt="github" width={50} height={50} />
+                  <div className="flex flex-col justify-center content-center ml-2">
+                    <p className="text-left">My Github Account:</p>
+                    <p className="text-left font-bold">@dennistonzo08</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </li>
             <li className="w-1/3 p-4">
-              <div className="flex">
-                <img
-                  src={FacebookBrand}
-                  alt="facebook"
-                  width={50}
-                  height={50}
-                />
-                <div className="flex flex-col justify-center content-center ml-2">
-                  <p className="text-left">My Facebook Account:</p>
-                  <p className="text-left font-bold">/dennis.john.45442</p>
+              <a
+                href="https://www.facebook.com/dennis.john.45442"
+                target="_blank"
+              >
+                <div className="flex">
+                  <img
+                    src={FacebookBrand}
+                    alt="facebook"
+                    width={50}
+                    height={50}
+                  />
+                  <div className="flex flex-col justify-center content-center ml-2">
+                    <p className="text-left">My Facebook Account:</p>
+                    <p className="text-left font-bold">/dennis.john.45442</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </li>
             <li className="w-1/3 p-4">
-              <div className="flex">
-                <img
-                  src={InstagramBrand}
-                  alt="instagram"
-                  width={50}
-                  height={50}
-                />
-                <div className="flex flex-col justify-center content-center ml-2">
-                  <p className="text-left">My Instagram Account:</p>
-                  <p className="text-left font-bold">@sowsitrash</p>
+              <a href="https://www.instagram.com/sowsitrash/" target="_blank">
+                <div className="flex">
+                  <img
+                    src={InstagramBrand}
+                    alt="instagram"
+                    width={50}
+                    height={50}
+                  />
+                  <div className="flex flex-col justify-center content-center ml-2">
+                    <p className="text-left">My Instagram Account:</p>
+                    <p className="text-left font-bold">@sowsitrash</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </li>
           </ul>
         </div>

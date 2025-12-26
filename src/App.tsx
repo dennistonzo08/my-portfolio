@@ -3,17 +3,19 @@ import PageOne from "./components/PageOne";
 import PageTwo from "./components/PageTwo";
 import PageThree from "./components/PageThree";
 import PageFour from "./components/PageFour";
+import SpotifyPortfolio from "./components/SpotifyPortfolio";
 
 function App() {
   return (
     <div className="App">
-      <PageOne />
+      <SpotifyPortfolio />
+      {/* <PageOne />
 
       <PageTwo />
 
       <PageThree />
 
-      <PageFour />
+      <PageFour /> */}
     </div>
   );
 }

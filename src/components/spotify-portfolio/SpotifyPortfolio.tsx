@@ -161,14 +161,14 @@ export default function SpotifyPortfolio() {
             <div className="bg-gradient-to-r from-green-900 to-zinc-900 rounded-lg p-6 md:p-12 mb-8">
               <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8">
                 <img
-                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&h=200&fit=crop"
+                  src="./img/pro.jpg"
                   alt="Profile"
                   className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-green-500 shadow-2xl"
                 />
                 <div className="text-center md:text-left">
                   <p className="text-xs md:text-sm font-semibold mb-2">DEVELOPER</p>
-                  <h1 className="text-4xl md:text-6xl font-bold mb-4">Your Name</h1>
-                  <p className="text-base md:text-lg text-gray-300 mb-4">Full Stack Developer | React Specialist</p>
+                  <h1 className="text-4xl md:text-6xl font-bold mb-4">Dennis John Tonzo</h1>
+                  <p className="text-base md:text-lg text-gray-300 mb-4">Full Stack Developer | LLM Systems Specialist</p>
                   <div className="flex gap-4 justify-center md:justify-start">
                     <Github className="cursor-pointer hover:text-green-500 transition" />
                     <Linkedin className="cursor-pointer hover:text-green-500 transition" />
@@ -226,14 +226,34 @@ export default function SpotifyPortfolio() {
               <h2 className="text-2xl font-bold mb-4 text-green-500">Experience</h2>
               <div className="space-y-6">
                 <div>
-                  <h3 className="text-xl font-semibold">Senior Frontend Developer</h3>
-                  <p className="text-green-500 text-sm mb-2">Tech Company • 2021 - Present</p>
-                  <p className="text-gray-400">Leading frontend development for enterprise applications</p>
+                  <h3 className="text-xl font-semibold">Junio Software Developer</h3>
+                  <p className="text-green-500 text-sm mb-2">Inriver Philippines • 2023 - 2025</p>
+                  <p className="text-gray-400">Mainly focus on Python Systems and Web Scraping cron jobs</p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold">Full Stack Developer</h3>
-                  <p className="text-green-500 text-sm mb-2">Startup Inc • 2019 - 2021</p>
-                  <p className="text-gray-400">Built and maintained multiple web applications</p>
+                  <h3 className="text-xl font-semibold">Video Editor / Social Media Manager</h3>
+                  <p className="text-green-500 text-sm mb-2">MarkZ IT Solutions OPC • 2022 - 2023</p>
+                  <p className="text-gray-400">Managing Social Media Pages while creating the video content at the same time</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold">Freelance Software Developer</h3>
+                  <p className="text-green-500 text-sm mb-2">AltaVista Beach Resort • 2023</p>
+                  <p className="text-gray-400">Created a system (Reservation and POS) for productivity of their employees</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold">Freelance Software Developer</h3>
+                  <p className="text-green-500 text-sm mb-2">Agro-Industrial Foundation College of the Philippines • 2021 - 2022</p>
+                  <p className="text-gray-400">Created a system for the compliance for ISO certification</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold">Junior Software Developer</h3>
+                  <p className="text-green-500 text-sm mb-2">Davao Medical School Foundation • 2019 - 2023</p>
+                  <p className="text-gray-400">A vital role to maintain in-house softwares related to medical systems</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold">Intern and Web Developer</h3>
+                  <p className="text-green-500 text-sm mb-2">Commission on Higher Education Department – Region XI • 2018 - 2019</p>
+                  <p className="text-gray-400">A support role to maintain web systems in the goverment</p>
                 </div>
               </div>
             </div>
@@ -330,21 +350,21 @@ export default function SpotifyPortfolio() {
                     <Mail className="mr-4 text-green-500" />
                     <div>
                       <p className="font-semibold">Email</p>
-                      <p className="text-gray-400">your.email@example.com</p>
+                      <p className="text-gray-400">dennistonzo08@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <Github className="mr-4 text-green-500" />
                     <div>
                       <p className="font-semibold">GitHub</p>
-                      <p className="text-gray-400">github.com/yourusername</p>
+                      <p className="text-gray-400">github.com/dennistonzo08</p>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <Linkedin className="mr-4 text-green-500" />
                     <div>
                       <p className="font-semibold">LinkedIn</p>
-                      <p className="text-gray-400">linkedin.com/in/yourprofile</p>
+                      <p className="text-gray-400">linkedin.com/in/dtonzo/</p>
                     </div>
                   </div>
                 </div>

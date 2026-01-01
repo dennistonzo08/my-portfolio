@@ -42,7 +42,8 @@ export default function SpotifyPortfolio() {
   ];
 
   const handleSubmit = () => {
-    alert(`Message sent!\nName: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`);
+    // alert(`Message sent!\nName: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`);
+    alert("This function is currently disabled due to lack of funds. Please contact me directly on the Contact Information displayed.");
     setFormData({ name: '', email: '', message: '' });
   };
 
@@ -346,21 +347,21 @@ export default function SpotifyPortfolio() {
               <div className="bg-zinc-900 rounded-lg p-8">
                 <h2 className="text-2xl font-bold mb-6 text-green-500">Contact Information</h2>
                 <div className="space-y-4">
-                  <div className="flex items-center">
+                  <div className="flex items-center justify-center">
                     <Mail className="mr-4 text-green-500" />
                     <div>
                       <p className="font-semibold">Email</p>
                       <p className="text-gray-400">dennistonzo08@gmail.com</p>
                     </div>
                   </div>
-                  <div className="flex items-center">
+                  <div className="flex items-center justify-center">
                     <Github className="mr-4 text-green-500" />
                     <div>
                       <p className="font-semibold">GitHub</p>
                       <p className="text-gray-400">github.com/dennistonzo08</p>
                     </div>
                   </div>
-                  <div className="flex items-center">
+                  <div className="flex items-center justify-center">
                     <Linkedin className="mr-4 text-green-500" />
                     <div>
                       <p className="font-semibold">LinkedIn</p>
@@ -395,6 +396,7 @@ export default function SpotifyPortfolio() {
                     className="w-full p-3 bg-zinc-800 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
                   />
                   <button 
+                    // disabled={true}
                     onClick={handleSubmit}
                     className="w-full bg-green-500 text-black font-bold py-3 rounded-full hover:bg-green-400 transition"
                   >
